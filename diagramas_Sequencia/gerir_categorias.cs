@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SistemaFinanceiro
 {
-    
+    // Classe Categoria para representar categorias de transações
     public class Categoria
     {
         private int id;
@@ -33,7 +33,7 @@ namespace SistemaFinanceiro
         public string GetResumo() => $"ID: {id} | Nome: {nome}";
     }
 
-    
+    // Classe Persistencia para gerenciar armazenamento de categorias
     public class Persistencia
     {
         private List<Categoria> categorias;
