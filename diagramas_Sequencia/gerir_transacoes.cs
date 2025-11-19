@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SistemaFinanceiro
 {
-    
+    // Classe responsável por representar uma categoria de transação
     public class Categoria
     {
         private string nome;
@@ -27,7 +27,7 @@ namespace SistemaFinanceiro
         }
     }
 
-    
+    // Classe responsável por representar uma transação financeira
     public class Transacao
     {
         private string descricao;
@@ -70,7 +70,7 @@ namespace SistemaFinanceiro
         }
     }
 
-    
+    // Classe responsável pela persistência das transações
     public class Persistencia
     {
         private List<Transacao> transacoes = new List<Transacao>();
